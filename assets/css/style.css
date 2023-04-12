@@ -1,0 +1,68 @@
+/* body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #0000a0;
+  color: aqua;
+} 
+
+
+.header {
+  display: flex;
+}
+nav {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.content {
+  padding: 0px;
+}
+
+.content h1 {
+  color: tomato;
+  text-align: center;
+}
+
+.content p:first {
+  color: greenyellow;
+}
+
+.content p:last-child {
+  color: grey;
+  font-family: verdana;
+}
+
+
+footer{
+    background-color : white;
+} */
+
+
+
+/* selector content */
+/* 
+body{
+  margin: 0;
+}
+
+
+p{
+  margin : 0;
+  margin-top: 0.5em;
+  color: aqua;
+  background-color: green;
+}
+
+div  p{
+  color: greenyellow;
+}
+ */
+
+
+
+ /* box modelling content */
+ .box-content{
+  margin: 300px;
+  padding: 300px;
+ }

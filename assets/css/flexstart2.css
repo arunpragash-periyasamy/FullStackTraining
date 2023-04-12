@@ -1,0 +1,96 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.maincontainer{
+    width: 750px;
+    height: 750px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container1{
+    width: 220px;
+    height: 220px;
+    background-color: aqua; 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    align-items: flex-start;  
+}
+
+.container2{
+    width: 220px;
+    height: 220px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container3{
+    width: 220px;
+    height: 220px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.subcontainer1{
+    width: 70px;
+    height: 70px;
+    background-color: #f78f77;
+    align-self: flex-end;
+}
+
+.subcontainer2{
+    width: 70px;
+    height: 70px;
+    background-color: #f78f77;
+    align-self: center;
+}
+
+.subcontainer3{
+    width: 70px;
+    height: 70px;
+    background-color: #f78f77;
+}
+
+.subcontainer4{
+    width: 70px;
+    height: 70px;
+    background-color: #f78f77;
+}
+
+.subcontainer5{
+    width: 70px;
+    height: 70px;
+    background-color: #f78f77;
+}
+
+.subcontainer6{
+    width: 70px;
+    height: 70px;
+    background-color: #f78f77;
+}
+
+.subcontainer7{
+    width: 70px;
+    height: 70px;
+    background-color: #f78f77;
+}
+
+.subcontainer8{
+    width: 70px;
+    height: 70px;
+    background-color: #f78f77;
+}
+
+.subcontainer9{
+    width: 70px;
+    height: 70px;
+    background-color: #f78f77;
+}

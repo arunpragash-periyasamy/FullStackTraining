@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+
+    <style>
+        body{
+            background-color: azure;
+        }
+        table, th, td{
+            border:3px double;
+            border-collapse: collapse;
+        }
+
+        th, td{
+            /* border-style: inset; */
+            padding-left: 10px;
+            padding-right: 10px;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="username">Username: </label>
+        <input type="text" name="username" id="username"><br/>
+        <label for="department">Department: </label>
+        <input type="text" name="department" id="department">
+        <button onclick="getData()">Submit</button>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>Period/Days</th>
+                <th>1</th>
+                <th>2</th>
+                <th style="border-bottom: none;"></th>
+                <th>3</th>
+                <th>4</th>
+                <th style="border-bottom: none;"></th>
+                <th>5</th>
+                <th>6</th>
+                <th style="border-bottom: none;"></th>
+                <th>7</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>Tamil</td>
+                <td>English</td>
+                <td  style="border-top: none;" rowspan="7">BREAK</td>
+                <td>Matdematics</td>
+                <td>Science</td>
+                <td  style="border-top: none;" rowspan="7">LUNCH BREAK</td>
+                <td>Social Science</td>
+                <td>G.K</td>
+                <td  style="border-top: none;" rowspan="7">BREAK</td>
+                <td>P.E.T</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>Tamil</td>
+                <td>English</td>
+                <td>Matdematics</td>
+                <td>Science</td>
+                <td>Social Science</td>
+                <td>G.K</td>
+                <td>P.E.T</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>Tamil</td>
+                <td>English</td>
+                <td>Matdematics</td>
+                <td>Science</td>
+                <td>Social Science</td>
+                <td>G.K</td>
+                <td>P.E.T</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>Tamil</td>
+                <td>English</td>
+                <td>Matdematics</td>
+                <td>Science</td>
+                <td>Social Science</td>
+                <td>G.K</td>
+                <td>P.E.T</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>Tamil</td>
+                <td>English</td>
+                <td>Matdematics</td>
+                <td>Science</td>
+                <td>Social Science</td>
+                <td>G.K</td>
+                <td>P.E.T</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>Tamil</td>
+                <td>English</td>
+                <td>Matdematics</td>
+                <td>Science</td>
+                <td>Social Science</td>
+                <td>G.K</td>
+                <td>P.E.T</td>
+            </tr>
+        </tbody>
+    </table>
+    <script>
+    </script>
+</body>
+</html>
